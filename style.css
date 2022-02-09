@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #999;
+}
+
+h1{
+    text-align: center;
+    margin: 5% auto;
+    color: #fff;
+}
