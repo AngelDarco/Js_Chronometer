@@ -9,6 +9,20 @@
 </head>
 <body>
     <h1>Chronometer</h1>
+    <div class="container">
+        <div class="container__display">
+            <input type="text" name="display" id="display" disabled placeholder="0">
+            <input type="hidden" name="record">
+        </div>
+        <div class="btn__container">
+            <button id="start">start</button>
+            <button id="pause">pause</button>
+            <button id="stop">stop</button>
+            <button type="reset" id="reset">reset</button>
+        </div>
+        <div class="container__result" id="contresult">
+        </div>
+    </div>
 </body>
     <script src="app.js"></script>
 </html>
